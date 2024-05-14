@@ -65,6 +65,7 @@ class Reservation(BaseModel):
     locker_id: int
     user_id: int
 
+
 class CreateReservation(BaseModel):
     locker_id: int
 
