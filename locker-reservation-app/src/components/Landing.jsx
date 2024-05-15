@@ -113,14 +113,15 @@ const Landing = () => {
                   marginBottom: "2em",
                 }}
               >
-
+                Lorem ipsum dolor sit amet consectetur. Interdum praesent mauris
+                eget interdum aliquet sed lacus non.
               </Typography>
               <Link
                 to="/register"
                 className="register-btn"
                 onClick={handleRegistered}
               >
-                Sign up
+                Register Now
               </Link>
               <Box
                 sx={{
