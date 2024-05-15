@@ -104,24 +104,12 @@ const Landing = () => {
                 Make your Locker{" "}
                 <span style={{ color: "#FF5003" }}>Allocation</span> Today
               </Typography>
-              <Typography
-                variant="body2"
-                sx={{
-                  color: "#565656",
-                  fontSize: "1rem",
-                  fontWeight: 400,
-                  marginBottom: "2em",
-                }}
-              >
-                Lorem ipsum dolor sit amet consectetur. Interdum praesent mauris
-                eget interdum aliquet sed lacus non.
-              </Typography>
               <Link
                 to="/register"
                 className="register-btn"
                 onClick={handleRegistered}
               >
-                Register Now
+                Sign up
               </Link>
               <Box
                 sx={{
